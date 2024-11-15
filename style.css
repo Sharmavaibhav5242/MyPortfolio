@@ -6,7 +6,7 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
     background-color: black;
-    color: blue;
+   
 }
 #navbar{
     display: flex;
@@ -22,6 +22,7 @@ body{
     align-content: left;
     margin-top: 10px;
     margin-left: 20px;
+    font-family: 'Times New Roman', Times, serif;
 }
 #navbar nav ul{
     display: flex;
@@ -39,25 +40,46 @@ body{
 }
 /* hero section styling  */
    #hero{
-    position: relative;
-    background-image: url(city1.jpeg);
+    /* position: relative; */
+    background-image: url(4255366.jpg);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     height: 100vh;
     display: flex;
-    align-items: center;
+    /* align-items: center; */
     justify-content: center;
     text-align: center;
     font-style: inherit;
      color: rgb(0, 255, 255);
      font-size: 2em;
+    
      
+     
+   }
+   #hero h1{
+    /* padding-bottom: 500px; */
+    text-shadow: 5px 5px 2px black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
    }
    #hero p{
     font-size: 0.6em;
     display: flex;
-    color: black;
+    color: rgb(255, 255, 255);
+    margin-left: 10px;
+    margin-right: 10px;
+    
    }
+   #navbar nav ul a:hover{
+    text-decoration: underline;
+    color: rgb(255, 0, 0);
+   }
+ h2{
+    color: aqua;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    font-size: 2em;
+}
 
