@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+body{
+  background-color: rgb(64, 67, 78);
+  color: rgba(27, 121, 202, 0.647);
+}
+/* Navbar styling */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    background-color: black;
+   
+}
+.navbar span{
+    color: red;
+    font-family: trade 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 2em;
+}
+.navbar  a{
+    color: white;
+    text-decoration: none;
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size: 1.5em;
+    margin-right: 30px;
+    /* margin-top: 60px; */
+}
+.navbar a:hover{
+    color: red;
+}
+/* navbar ends */
+.hero{
+    position: relative;
+    background-image: url(https://www.royalenfield.com/content/dam/royal-enfield/motorcycles/classic-650/banners/classic_650_new.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+    display: flex;
+}
