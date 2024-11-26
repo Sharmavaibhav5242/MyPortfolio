@@ -93,6 +93,7 @@ body{
     font-size: 1.2em;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     transition: all ease-in-out 0.3s;
+    background-color: rgba(240, 248, 255, 0.435);
 }
 .classic button:hover{
     transform: scale(1.3);
@@ -112,6 +113,8 @@ body{
     justify-content: center;
     margin-right: 10px;
     color: white;
+    margin-left: 15px;
+    margin-top: 10px;
 }
 .loc a{
     text-decoration: none;
@@ -124,6 +127,12 @@ body{
     color: azure;
     font-size: 2em;
     margin-left: 10px;
+    
+}
+.loc1{
+    display: flex;
+    gap: 10px;
+    /* margin-left: 15px; */
 }
 #loc2{
     background-image: url(https://www.royalenfield.com/content/dam/royal-enfield/usa/home/locate-us/desktop/locate-dealer.jpg);
@@ -147,6 +156,7 @@ body{
     font-size: 1.2em;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     transition: all ease-in-out 0.3s;
+    background-color: hwb(208 94% 0% / 0.555);
 }
 #loc2 button:hover{
     transform: scale(1.3);
@@ -165,7 +175,58 @@ body{
     font-size: 1.2em;
     margin-right: 20px;
 }
+footer {
+    background-color: #ffffff;
+    color: #000000;
+    padding: 20px 0;
+    text-align: center;
+}
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+}
+.footer-links ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap; /* Ensures links wrap on smaller screens */
+    gap: 15px;
+    justify-content: center;
+}
+.footer-links ul li a {
+    color: #000000;
+    text-decoration: none;
+    font-size: 14px;
+}
 
+.footer-social {
+    display: flex;
+    flex-wrap: wrap; /* Adjust icons for smaller screens */
+    justify-content: center;
+    gap: 10px;
+}
+.footer-social a {
+    margin: 0 10px;
+    color: #000000;
+    font-size: 18px;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+.footer-social a:hover {
+    color: #007aff;
+}
+footer-copyright p {
+    font-size: 14px;
+    margin: 15px 0 0;
+}
+.footer-copyright-2{
+    padding-left:85% ;
+}
 
 
      
