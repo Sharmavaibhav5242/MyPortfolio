@@ -7,7 +7,7 @@
 }
 
 body {
-  background-color: rgb(64, 67, 78);
+  background-color: rgb(0, 0, 0);
   color: rgba(27, 121, 202, 0.647);
 }
 
@@ -260,4 +260,4 @@ footer-copyright p {
 
 .footer-copyright-2 {
   padding-left: 85%  ;
-}/*# sourceMappingURL=Re.css.map */
+/* }# sourceMappingURL=Re.css.map */
