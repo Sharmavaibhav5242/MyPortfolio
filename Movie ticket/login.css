@@ -1,13 +1,41 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    scroll-behavior: smooth;
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
 }
-body{
-    background-color: black;
-    color: black;
+
+body {
+  background-color: black;
 }
-#log{
-    color: red;
+
+.container {
+  justify-content: center;
+  margin-left: 10%;
+  margin-top: 10%;
+  margin-right: 70%;
+  box-shadow: 5px 5px 5px;
+  padding: 3%;
+  align-items: center;
+  background-color: black;
+  color: white;
+  border: 2px rgb(149, 144, 144) solid;
 }
+.container #log {
+  color: red;
+  padding-bottom: 3%;
+}
+.container #login {
+  padding: 2%;
+  padding-left: 4%;
+  margin: 2%;
+}
+.container .signup-link {
+  margin-top: 2%;
+}
+.container .input-container {
+  padding-top: 1.3%;
+}
+.container h2 {
+  text-align: center;
+}/*# sourceMappingURL=login.css.map */
