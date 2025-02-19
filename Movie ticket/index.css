@@ -1,19 +1,70 @@
-* {
-  box-sizing: border-box;
-  padding: 0%;
-  margin: 0%;
-  list-style: none;
-  text-decoration: none;
+body {
+    margin: 0;
+    font-family: 'Montserrat', 'Open Sans', sans-serif;
+    background-color: #000;
+    color: #fff;
 }
 
-ul {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  gap: 20px;
-  height: 70px;
-  background-color: red;
-  font-size: 1.3rem;
-  color: white;
-}/*# sourceMappingURL=index.css.map */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em 2em;
+    background-color: #990000; /* Dark Red */
+  
+}
+
+.navbar-brand {
+    font-size: 1.7em;
+    font-weight: bolder;
+    color: #f9f9f9; /* Popcorn Yellow */
+    transition: color 0.5s;
+}
+
+.navbar-brand:hover {
+    color: #000000; /* Change to white on hover */
+}
+
+.navbar-menu {
+    list-style: none;
+    display: flex;
+    gap: 1em;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-menu li {
+    display: flex;
+}
+
+.navbar-menu a {
+    text-decoration: none;
+    color: #ffffff;
+    transition: color 0.3s;
+    padding: 0.5em 1em; /* Add some padding for a better look */
+    border-radius: 0.5em; /* Add a subtle border radius */
+}
+
+.navbar-menu a:hover {
+    color: #000000; /* Black */
+   
+}
+
+/* Add a active class to highlight the current page */
+.navbar-menu a.active {
+    color: #000000b6; 
+}
+
+/* Style the login and signup buttons */
+.navbar-menu .login-btn, .navbar-menu .signup-btn {
+    background-color: #0300008f; /* Black */
+    color: #f7f3f3;
+    padding: 0.5em 1em;
+    border: none;
+    border-radius: 0.5em;
+    cursor: pointer;
+}
+
+.navbar-menu .login-btn:hover, .navbar-menu .signup-btn:hover {
+    background-color: #070600; /* Black */
+}
