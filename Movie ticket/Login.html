@@ -3,22 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PopKorn Login</title>
     <link rel="stylesheet" href="login.css">
-    <title>Document</title>
 </head>
 <body>
-    <nav>
-        <div>
-            <h1>Popkorn</h1>
+    <div class="container">
+        <div class="logo">
+            <img src="/3ab58552-aaad-4325-a4bd-1491e0ae81c1_0.jpeg" alt="Logo">
         </div>
-    </nav>
-    <div id="box">
-        <h2>Login</h2>
-        Name <input type="text" id="name"> <br><br>
-        Email <input type="email" id="email"><br><br>
-        Password <input type="password" id="pass"><br><br>
-        Confirm password <input type="password" id="Confirm"><br><br>
+        <div class="login-form">
+            <h2>Login</h2>
+            <form>
+                <div class="input-group">
+                    <label for="email">Email or phone number</label>
+                    <input type="text" id="email" placeholder="Enter your email or phone number">
+                </div>
+                <div class="input-group">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" placeholder="Enter your password">
+                </div>
+                <button type="submit">Login</button>
+                <p>Don't have an account? <a href="#">Sign up now</a></p>
+                <p>Forgot your password? <a href="#">Reset password</a></p>
+            </form>
+        </div>
     </div>
 </body>
-<Script src="login.js"></Script>
 </html>
