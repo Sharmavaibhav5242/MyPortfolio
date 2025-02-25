@@ -5,11 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PopKorn Login</title>
     <link rel="stylesheet" href="login.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+ 
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css">
+    <title>Document</title>
+
 </head>
 <body>
+    <form class="contain" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="1000">
+
     <div class="container">
         <div class="logo">
-            <img src="/3ab58552-aaad-4325-a4bd-1491e0ae81c1_0.jpeg" alt="Logo">
+            <img src="/245edbb7-ae15-4c81-9bf3-e242c1faef8d_0.jpeg" alt="Logo" class="logo-image">
         </div>
         <div class="login-form">
             <h2>Login</h2>
@@ -23,10 +30,16 @@
                     <input type="password" id="password" placeholder="Enter your password">
                 </div>
                 <button type="submit">Login</button>
-                <p>Don't have an account? <a href="#">Sign up now</a></p>
-                <p>Forgot your password? <a href="#">Reset password</a></p>
+                <p class="txt">Don't have an account? <a href="#">Sign up now</a></p>
+                <p class="txt">Forgot your password? <a href="#">Reset password</a></p>
             </form>
         </div>
     </div>
+    <script src="./local.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
+
 </body>
 </html>
