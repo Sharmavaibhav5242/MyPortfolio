@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PopKorn Signup</title>
+    <link rel="stylesheet" href="/Signup.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+ 
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css">
+</head>
+<body>
+    <form class="contain" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="1000">
+    <div class="container">
+        <div class="logo">
+            <img src="/245edbb7-ae15-4c81-9bf3-e242c1faef8d_0.jpeg" alt="logo" class="logo-image">
+        </div>
+        
+        <form id="signup-form">
+            <label for="username"  class="label">Username:</label>
+            <input type="text" id="username" name="username" required>
+
+            <label for="email" class="label">Email Address:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="password" class="label">Password:</label>
+            <input type="password" id="password" name="password" required>
+
+            <label for="confirm-password" class="label">Confirm Password:</label>
+            <input type="password" id="confirm-password" name="confirm-password" required>
+
+            <label for="first-name" class="label">First Name:</label>
+            <input type="text" id="first-name" name="first-name" required>
+
+            <label for="last-name" class="label">Last Name:</label>
+            <input type="text" id="last-name" name="last-name" required>
+
+            <button type="submit">Signup</button>
+        </form>
+
+        <p class="txt">Already have an account? <a href="/login.html">Login</a></p>
+        <p class="txt">Forgot Password? <a href="#">Reset Password</a></p>
+    </div>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
+</body>
+</html>
