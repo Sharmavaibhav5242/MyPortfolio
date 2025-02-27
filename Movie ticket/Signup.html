@@ -17,33 +17,40 @@
         </div>
         
         <form id="signup-form">
+            <p id="errname"></p>
             <label for="username"  class="label">Username:</label>
-            <input type="text" id="username" name="username" required>
+            <input type="text" id="name" name="username">
 
+            <p id="erremail"></p>
             <label for="email" class="label">Email Address:</label>
-            <input type="email" id="email" name="email" required>
+            <input type="email" id="email" name="email">
 
+            <p id="errpass"></p>
             <label for="password" class="label">Password:</label>
-            <input type="password" id="password" name="password" required>
+            <input type="password" id="password" name="password">
 
+            <p id="errcpass"></p>
             <label for="confirm-password" class="label">Confirm Password:</label>
-            <input type="password" id="confirm-password" name="confirm-password" required>
+            <input type="password" id="confirm-password" name="confirm-password">
 
+            <p id="errfirst"></p>
             <label for="first-name" class="label">First Name:</label>
-            <input type="text" id="first-name" name="first-name" required>
+            <input type="text" id="first" name="first-name">
 
+            <p id="errlast"></p>
             <label for="last-name" class="label">Last Name:</label>
-            <input type="text" id="last-name" name="last-name" required>
+            <input type="text" id="last" name="last-name">
 
-            <button type="submit">Signup</button>
+            <button type="submit" onclick="return okk()">Signup</button>
         </form>
 
-        <p class="txt">Already have an account? <a href="/login.html">Login</a></p>
+        <p class="txt">Already have an account? <a href="#">Login</a></p>
         <p class="txt">Forgot Password? <a href="#">Reset Password</a></p>
     </div>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
         AOS.init();
       </script>
+      <script src="Signup.js"></script>
 </body>
 </html>
