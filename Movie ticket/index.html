@@ -3,23 +3,45 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="/245edbb7-ae15-4c81-9bf3-e242c1faef8d_0.jpeg">
-    <title>PopKorn</title>
+    <link rel="icon" href="/поп корн.jpeg">
+    <title>Popcorn</title>
     <link rel="stylesheet" href="index.css">
+  
 </head>
 <body>
     <nav class="navbar">
         <div class="navbar-brand">
-            PopKorn
+            Popcorn
         </div>
         <ul class="navbar-menu">
             <li><a href="#home">Home</a></li>
             <li><a href="#about">About</a></li>
             <li><a href="#support">Support</a></li>
             <li><a href="#faq">FAQ</a></li>
-            <li><button class="login-btn"><a href="/login.html"></a>Login</button></li>
-            <li><button class="signup-btn"><a href="/Signup.html"></a>Signup</button></li>
+            <li><button class="login-btn">Login</button></li>
+            <li><button class="signup-btn">Signup</button></li>
         </ul>
     </nav>
+    <swiper-container class="mySwiper" pagination="true" pagination-clickable="true" navigation="true" space-between="30"
+    centered-slides="true" autoplay-delay="2500" autoplay-disable-on-interaction="false">
+    <swiper-slide><img src="/01.jpg" alt=""></swiper-slide>
+    <swiper-slide><img src="/02.jpg" alt=""></swiper-slide>
+    <swiper-slide><img src="/03.jpg" alt=""></swiper-slide>
+    <swiper-slide><img src="/04.jpg" alt=""></swiper-slide>
+    <swiper-slide><img src="/05.jpg" alt=""></swiper-slide>
+    <swiper-slide><img src="/06.jpg" alt=""></swiper-slide>
+    <swiper-slide><img src="/01.jpg" alt=""></swiper-slide>
+    <swiper-slide><img src="/03.jpg" alt=""></swiper-slide>
+    <swiper-slide><img src="/04.jpg" alt=""></swiper-slide>
+    <div class="autoplay-progress" slot="container-end">
+      <svg viewBox="0 0 48 48">
+        <circle cx="24" cy="24" r="20"></circle>
+      </svg>
+      <span></span>
+    </div>
+  </swiper-container>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
+  <script src="index.js"></script>
 </body>
+
 </html>
