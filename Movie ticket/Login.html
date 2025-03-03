@@ -3,7 +3,6 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="/245edbb7-ae15-4c81-9bf3-e242c1faef8d_0.jpeg">
     <title>PopKorn Login</title>
     <link rel="stylesheet" href="login.css">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
@@ -23,14 +22,14 @@
             <h2>Login</h2>
             <form>
                 <div class="input-group">
-                    <label for="email">Email</label>
-                    <input type="text" id="email" placeholder="Enter your email ">
+                    <label for="email">Email or phone number</label>
+                    <input type="text" id="email" placeholder="Enter your email or phone number">
                 </div>
                 <div class="input-group">
                     <label for="password">Password</label>
                     <input type="password" id="password" placeholder="Enter your password">
                 </div>
-                <button type="submit">Login</button>
+                <button type="submit" onclick="return login()">Login</button>
                 <p class="txt">Don't have an account? <a href="/Signup.html">Sign up now</a></p>
                 <p class="txt">Forgot your password? <a href="#">Reset password</a></p>
             </form>
@@ -41,6 +40,7 @@
     <script>
         AOS.init();
       </script>
+      <script src="login.js"></script>
 
 </body>
 </html>

@@ -101,6 +101,8 @@ body {
     width: 100%;
     height: 380px;
     object-fit: cover;
+   
+
   }
 
   .autoplay-progress {
@@ -131,4 +133,10 @@ body {
     stroke-dashoffset: calc(125.6px * (1 - var(--progress)));
     stroke-dasharray: 125.6;
     transform: rotate(-90deg);
+  }
+  .booking h1{
+    color: #f7f3f3;
+    margin-left: 15px;
+   
+
   }
