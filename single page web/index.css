@@ -250,5 +250,6 @@ footer{
             .TV, 
             .Movies, 
             .newandp, 
-            .top { grid-template-columns: repeat(auto-fill, 100px}
+            .top { grid-template-columns: repeat(auto-fill, 100px)
          }
+        }

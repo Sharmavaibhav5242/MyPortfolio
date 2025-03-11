@@ -7,3 +7,11 @@ swiperEl.addEventListener("autoplaytimeleft", (e) => {
   progressCircle.style.setProperty("--progress", 1 - progress);
   progressContent.textContent = `${Math.ceil(time / 1000)}s`;
 });
+var swiper = new Swiper(".mySwiper", {
+  slidesPerView: 3,
+  spaceBetween: 30,
+  pagination: {
+    el: ".swiper-pagination",
+    clickable: true,
+  },
+});

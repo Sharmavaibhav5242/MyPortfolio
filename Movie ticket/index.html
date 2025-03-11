@@ -2,7 +2,8 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1, maximum-scale=1">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
     <link rel="icon" href="/поп корн.jpeg">
     <title>Popcorn</title>
     <link rel="stylesheet" href="index.css">
@@ -41,9 +42,21 @@
     </div>
   </swiper-container>
   <div class="booking">
-    <h1>Book your ticket</h1>
-
+    <h1 class="now-streaming">Now Streaming</h1>
   </div>
+  <div class="swiper mySwiper">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide"><img src="/3 Idiots.jpg" alt=""></div>
+      <div class="swiper-slide"><img src="/animal.jpg" alt=""></div>
+      <div class="swiper-slide"><img src="/Avengers 5; Doomsday.jpg" alt=""></div>
+      <div class="swiper-slide"><img src="/batman.jpg" alt=""></div>
+      <div class="swiper-slide"><img src="/Captain Miler drawing.jpg" alt=""></div>
+      <div class="swiper-slide"><img src="/Chhaava.jpg" alt=""></div>
+      <div class="swiper-slide"><img src="/joker.jpg" alt=""></div>
+    </div>
+    <div class="swiper-pagination"></div>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
   <script src="index.js"></script>
 </body>
