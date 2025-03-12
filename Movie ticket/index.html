@@ -19,8 +19,8 @@
             <li><a href="#about">About</a></li>
             <li><a href="#support">Support</a></li>
             <li><a href="#faq">FAQ</a></li>
-            <li><button class="login-btn">Login</button></li>
-            <li><button class="signup-btn">Signup</button></li>
+            <li><button class="login-btn"><a href="login.html"></a>Login</button></li>
+            <li><button class="signup-btn"><a href="Signup.html"></a>Signup</button></li>
         </ul>
     </nav>
     <swiper-container class="mySwiper" pagination="true" pagination-clickable="true" navigation="true" space-between="30"
@@ -29,7 +29,6 @@
     <swiper-slide><img src="/02.jpg" alt=""></swiper-slide>
     <swiper-slide><img src="/03.jpg" alt=""></swiper-slide>
     <swiper-slide><img src="/04.jpg" alt=""></swiper-slide>
-    <swiper-slide><img src="/05.jpg" alt=""></swiper-slide>
     <swiper-slide><img src="/06.jpg" alt=""></swiper-slide>
     <swiper-slide><img src="/01.jpg" alt=""></swiper-slide>
     <swiper-slide><img src="/03.jpg" alt=""></swiper-slide>
@@ -46,7 +45,7 @@
   </div>
   <div class="swiper mySwiper">
     <div class="swiper-wrapper">
-      <div class="swiper-slide"><img src="/3 Idiots.jpg" alt=""></div>
+      <div class="swiper-slide"><a href="/book.html"></a><img src="/3 Idiots.jpg" alt=""></div>
       <div class="swiper-slide"><img src="/animal.jpg" alt=""></div>
       <div class="swiper-slide"><img src="/Avengers 5; Doomsday.jpg" alt=""></div>
       <div class="swiper-slide"><img src="/batman.jpg" alt=""></div>
@@ -56,6 +55,21 @@
     </div>
     <div class="swiper-pagination"></div>
   </div>
+  <!-- Add a new div for the "Upcoming" section -->
+<div class="upcoming">
+  <h1 class="upcoming-title">Upcoming</h1>
+  <div class="swiper mySwiper">
+    <div class="swiper-wrapper">
+      <!-- Add images for the upcoming movies -->
+      <div class="swiper-slide"><img src="/dinosaur.jpg" alt=""></div>
+      <div class="swiper-slide"><img src="/The Royal Game.jpg" alt=""></div>
+      <div class="swiper-slide"><img src="/Thunderbolts.jpg" alt=""></div>
+      <div class="swiper-slide"><img src="/joker.jpg" alt=""></div>
+    </div>
+    <div class="swiper-pagination"></div>
+  </div>
+</div>
+
   <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
   <script src="index.js"></script>

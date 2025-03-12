@@ -1,20 +1,36 @@
 {
-    "movie": [
-      {
-        "name": "Muskan tamrakar",
-        "date": "2025-02-26",
-        "number": "6268951339",
-        "person": "3",
-        "price": 200,
-        "id": "6299"
-      },
-      {
-        "id": "658c",
-        "name": "roshni",
-        "date": "2025-03-04",
-        "number": "1234567895",
-        "person": "3",
-        "price": 200
-      }
-    ]
-  }
+  "movie": [
+    {
+      "name": "Muskan tamrakar",
+      "date": "2025-02-26",
+      "number": "6268951339",
+      "person": "3",
+      "price": 200,
+      "id": "6299"
+    },
+    {
+      "id": "658c",
+      "name": "roshni",
+      "date": "2025-03-04",
+      "number": "1234567895",
+      "person": "3",
+      "price": 200
+    },
+    {
+      "id": "019a",
+      "name": "vaibhav sharma",
+      "date": "",
+      "number": "9617290776",
+      "person": "2",
+      "price": 200
+    },
+    {
+      "id": "2f33",
+      "name": "",
+      "date": "",
+      "number": "",
+      "person": "",
+      "price": 200
+    }
+  ]
+}

@@ -47,7 +47,7 @@ let confirmdelete=(id)=>{
               });
 }
 let del=(id)=>{
-        let url=http://localhost:3000/movie/${id}
+        let url=`http://localhost:3000/movie/${id}`
 
         fetch(url,{method:"DELETE"})
 }
@@ -86,7 +86,7 @@ return false
 }
 
 let formfill=async(id)=>{
-        let url=http://localhost:3000/movie/${id}
+        let url=`http://localhost:3000/movie/${id}`
 
         let res=await fetch(url,{method:"GET"})
 
@@ -117,7 +117,7 @@ let finalupdate=(id)=>{
        
         let inpperson=document.querySelector("#upperson").value
 
-        let url=http://localhost:3000/movie/${id}
+        let url=`http://localhost:3000/movie/${id}`
 
 
         fetch(url,{

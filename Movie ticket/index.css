@@ -204,3 +204,58 @@ body {
     justify-content: center;
     /* overflow-x: scroll; */
   }
+  /* Style the "Upcoming" section */
+.upcoming {
+  margin-top: 50px;
+}
+
+.upcoming-title {
+  color: #f7f3f3;
+  margin-left: 40%;
+  font-size: 40px;
+  font-weight: bold;
+  text-shadow: 2px 2px 5px #000;
+  animation: glow 2s infinite;
+}
+
+@keyframes glow {
+  0% {
+    text-shadow: 2px 2px 5px #000;
+  }
+  50% {
+    text-shadow: 2px 2px 10px #ff0000;
+  }
+  100% {
+    text-shadow: 2px 2px 5px #000000;
+  }
+}
+
+/* Style the swiper for the "Upcoming" section */
+.swiper2 {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #000000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  width: 10%;
+  height: 450px;
+  display: flex;
+  margin-left: 60px;
+  gap: 10px;
+}
+
+.swiper-slide img {
+  width: 50%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+  border: 5px solid rgba(166, 6, 6, 0.905);
+}
+
