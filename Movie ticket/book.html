@@ -3,32 +3,35 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Movie Ticket Booking</title>
     <link rel="stylesheet" href="booking.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Grechen+Fuemen&family=Playwrite+IE+Guides&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Grechen+Fuemen&family=Playwrite+IE+Guides&display=swap" rel="stylesheet">
 </head>
-<body >
-    <div class="img">
-    <h1 id="h"><span>Movie Ticket</span> Booking</h1>
-    <form>
-       Enter Your Name :  <input type="text" id="name" placeholder="Enter Your Name"><br><br>
-       Enter Your Number : <input type="number"  id="number"  placeholder="Enter Your Number"><br><br>
-       Select date : <input type="date" id="date"><br><br>
-       Enter Number of tickets : <input type="number" id="person" placeholder="Number of tickets"><br><br>
-
-             
-
-
-          <input type="submit" value="submit" onclick="return ins()">
-
-
-    </form>
+<body>
+    <div class="container">
+        <h1 id="h"><span>Movie Ticket</span> Booking</h1>
+        <form>
+            <div class="form-group">
+                <label for="name">Enter Your Name:</label>
+                <input type="text" id="name" placeholder="Enter Your Name">
+            </div>
+            <div class="form-group">
+                <label for="number">Enter Your Number:</label>
+                <input type="number" id="number" placeholder="Enter Your Number">
+            </div>
+            <div class="form-group">
+                <label for="date">Select Date:</label>
+                <input type="date" id="date">
+            </div>
+            <div class="form-group">
+                <label for="person">Enter Number of Tickets:</label>
+                <input type="number" id="person" placeholder="Number of Tickets">
+            </div>
+            <input type="submit" value="Book Now" onclick="return ins()">
+        </form>
     </div>
-
-
-    
     <script src="book.js"></script>
 </body>
 </html>

@@ -1,26 +1,50 @@
 body {
     margin: 0;
-    font-family: 'Montserrat', sans-serif; /* Changed font family to Montserrat */
+    font-family: 'Dancing Script', cursive;
     background-color: #000;
     color: #fff;
 }
-.img{
-    margin-top: 50px;
-    margin-left: 20%;
 
+.container {
+    width: 50%;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #2f2f2f;
+    border: 1px solid #ff0000;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
-input[type="text"],input[type="number"],input[type="date"],input[type="number"]{
-    width: 90%;
-    height: 20px;
+
+#h {
+    text-align: center;
     margin-bottom: 20px;
+}
+
+#h span {
+    color: #ff0000;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input[type="text"], input[type="number"], input[type="date"] {
+    width: 95%;
+    height: 40px;
     padding: 10px;
-    color: aliceblue;
-    background-color: #766e6e;
-    border: 1px solid #574c4c;
+    color: #fff;
+    background-color: #4f4f4f;
+    border: 1px solid #ff0000;
     border-radius: 5px;
 }
+
 input[type="submit"] {
-    width: 10%;
+    width: 98%;
     height: 40px;
     background-color: #ff0000;
     color: #fff;
@@ -28,4 +52,8 @@ input[type="submit"] {
     border: none;
     border-radius: 5px;
     cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #cc0000;
 }

@@ -185,7 +185,7 @@ body {
     align-items: center;
     margin-top: 10px;
     width: 10%;
-    height: 450px;
+    height: 100%;
     display: flex;
     margin-left: 60px;
     /* justify-content: center; */
@@ -249,6 +249,7 @@ body {
   display: flex;
   margin-left: 60px;
   gap: 10px;
+  
 }
 
 .swiper-slide img {
