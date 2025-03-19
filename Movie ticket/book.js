@@ -1,3 +1,22 @@
+let images = [
+        "/bg9.jpg",
+        "/bg7.jpg",
+        "/bg3.jpg",
+        "/bg4.jpg",
+        "/bg5.jpg",
+        "/bg6.jpg",
+        "/bg8.jpg",
+        "/bg9.jpg"
+    ];
+    
+    let currentImage = 0;
+    
+    setInterval(() => {
+        document.querySelector("body").style.backgroundImage = `url(${images[currentImage]})`;
+        currentImage = (currentImage + 1) % images.length;
+    }, 5000);
+    
+
 let fetchData= async()=>{
     let url='http://localhost:3000/movie'
 
