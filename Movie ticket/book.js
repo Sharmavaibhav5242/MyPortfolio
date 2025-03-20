@@ -6,13 +6,13 @@ let images = [
         "/bg5.jpg",
         "/bg6.jpg",
         "/bg8.jpg",
-        "/bg9.jpg"
+        "/bg3.jpg"
     ];
     
     let currentImage = 0;
     
     setInterval(() => {
-        document.querySelector("body").style.backgroundImage = `url(${images[currentImage]})`;
+        document.querySelector("#bodyy").style.backgroundImage = `url(${images[currentImage]})`;
         currentImage = (currentImage + 1) % images.length;
     }, 5000);
     

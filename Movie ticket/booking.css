@@ -1,4 +1,4 @@
-body {
+#bodyy {
     margin: 0;
     font-family: 'Montserrat', sans-serif;
     background-color: #000;
@@ -50,7 +50,7 @@ input[type="text"], input[type="number"], input[type="date"] {
 input[type="submit"] {
     width: 98%;
     height: 40px;
-    background-color: #4f4f4f;
+    background-color: #000000ac;
     color: #fff;
     padding: 10px;
     border: none;
