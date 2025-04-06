@@ -135,7 +135,32 @@ const App=()=>{
       </Row>
     </Container>
     </div>
-     <Image src={img8} width='100%' height='700px' />;
+     <Image src={img8} width='100%' height='700px' />
+     <footer>
+            <div class="footer-content">
+              <h1>HAVE YOUR OWN WEAPON</h1>
+                <div class="footer-links">
+                    <ul>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms of Service</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="footer-social">
+                    <a href="#" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="#" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="#" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+                </div>
+                <div class="footer-copyright">
+                    <p>&copy; 2025 Guns&Ammo. All rights reserved.</p>
+                </div>
+                <div class="footer-copyright-2">
+                    <p>&copy;  made by vaibhav sharma.</p>
+                </div>
+            </div>
+        </footer>
     </>
   )
 }
